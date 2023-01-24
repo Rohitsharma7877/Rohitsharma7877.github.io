@@ -1,0 +1,56 @@
+
+.mainBox{
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  font-size: 20px;
+  font-weight: 500;
+  /* color:  rgb(208, 135, 104); */
+  color: rgb(177, 54, 6);
+}
+.myLogo{
+  font-weight: bold;
+}
+.myLogo:hover {
+  /* animation: spin 2s linear infinite; */
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.nav {
+    cursor: pointer;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    /* color: rgb(103,50,29) */
+    color: black;
+    /* color:  #304ffe; */
+  
+  }
+  .nav:hover {
+    border-bottom: 5px solid   rgb(177, 54, 6);
+  
+  }
+
+  /* Animation for smaller screen  */
+@media only screen and (max-width: 768px) {
+  .myLogo {
+    /* animation: spin 2s linear infinite; */
+    cursor: pointer;
+  }
+  .nav:hover {
+    
+    border-bottom: 3px solid   #304ffe;
+    
+  }
+}
+
+  @keyframes spin {
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  

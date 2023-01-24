@@ -1,0 +1,129 @@
+.rootCont {
+  /* height: 90vh; */
+  width: 70%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  /* padding-bottom: 10vh; */
+  text-align: center;
+}
+.gitAntara{
+ margin-top: 30px;
+ margin-left: 95px;
+ /* margin: auto; */
+}
+.rootCont h1 {
+  color: rgb(17, 121, 224);
+
+  margin: 0 auto;
+}
+
+.rootCont > p {
+  font-size: 30px;
+  font-weight: 400;
+  color:rgb(177, 54, 6);
+  /* margin: 10; */
+}
+.rootCont > p:nth-of-type(1) {
+  font-size: 40px;
+  font-weight: bold;
+  color:  rgb(17, 121, 224);
+  text-decoration: underline;
+  text-decoration-color: rgb(177, 54, 6);
+  /* margin: 50px; */
+}
+.skillsContFront {
+  display: grid;
+  grid-template-columns: repeat(6, 16.6%);
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  margin-bottom: 50px;
+  /* margin-left: -50px; */
+  /* height: 50vh; */
+}
+.skillsContBack {
+  display: grid;
+  grid-template-columns: repeat(3, 33.3%);
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  margin-bottom: 50px;
+  /* height: 50vh; */
+}
+.toolsDiv {
+  display: grid;
+  grid-template-columns: repeat(4, 18.6%);
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  margin-bottom: 50px;
+  /* height: 50vh; */
+}
+.skillCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100px;
+  margin: auto;
+}
+.skillIcon {
+  font-size: 40px;
+  color: rgb(177, 54, 6);
+}
+.expSkillIcon {
+  font-size: 31px;
+  font-weight: 470;
+  color: rgb(177, 54, 6);
+}
+
+.reactIcon:hover {
+  color: rgb(94, 211, 243);
+}
+.reduxIcon:hover {
+  color: rgb(118, 76, 183);
+}
+.jsIcon:hover {
+  color: rgb(247, 223, 30);
+}
+.muiIcon:hover {
+  color: rgb(0, 129, 203);
+}
+.htmlIcon:hover {
+  color: rgb(233, 98, 40);
+}
+.cssIcon:hover {
+  color: rgb(37, 75, 221);
+}
+.nodeIcon:hover {
+  color: rgb(95, 151, 89);
+}
+.mongoIcon:hover {
+  color: rgb(82, 167, 75);
+}
+.gitIcon:hover {
+  color: blue;
+}
+.expIcon {
+  margin: 0;
+}
+.expIcon:hover {
+  color: black;
+}
+@media only screen and (max-width: 1024px) {
+  /* .rootCont {
+    height: 140vh;
+    padding-bottom: 5vh;
+  } */
+  .rootCont {
+    width: 90%;
+    margin-top: 10%;
+ 
+  }
+  .skillsContFront {
+    grid-template-columns: repeat(3, 33.3%);
+    /* height: 120vh; */
+  }
+}
