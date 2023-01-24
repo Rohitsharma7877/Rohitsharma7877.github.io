@@ -22,7 +22,7 @@
 .rootCont > p {
   font-size: 30px;
   font-weight: 400;
-  color:rgb(177, 54, 6);
+  color:rgb(15, 7, 117);;
   /* margin: 10; */
 }
 .rootCont > p:nth-of-type(1) {
@@ -30,7 +30,7 @@
   font-weight: bold;
   color:  rgb(17, 121, 224);
   text-decoration: underline;
-  text-decoration-color: rgb(177, 54, 6);
+  text-decoration-color: rgb(15, 7, 117);
   /* margin: 50px; */
 }
 .skillsContFront {
@@ -71,12 +71,12 @@
 }
 .skillIcon {
   font-size: 40px;
-  color: rgb(177, 54, 6);
+  color:rgb(15, 7, 117);
 }
 .expSkillIcon {
   font-size: 31px;
   font-weight: 470;
-  color: rgb(177, 54, 6);
+  color: rgb(15, 7, 117);
 }
 
 .reactIcon:hover {
@@ -92,7 +92,7 @@
   color: rgb(0, 129, 203);
 }
 .htmlIcon:hover {
-  color: rgb(233, 98, 40);
+  color: rgb(15, 7, 117);
 }
 .cssIcon:hover {
   color: rgb(37, 75, 221);

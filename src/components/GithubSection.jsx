@@ -21,10 +21,15 @@ const GithubStat = () => {
           <img
           
             alt="7oSkaaa's Github Stats"
-            src="https://github-readme-stats.vercel.app/api/top-langs/?username=Rohitsharma7877&theme=onedark"
+            src="https://github-readme-stats.vercel.app/api?username=Rohitsharma7877&show_icons=true&theme=react&border_color=61dafb&hide_border=true"
             // height="192px"
           />
+          {/* <img src="https://github-readme-stats.vercel.app/api?username=Rohitsharma7877&show_icons=true&theme=react&border_color=61dafb&hide_border=true" /> */}
         </a>
+
+
+
+        
         
       </div>
       </Fade>

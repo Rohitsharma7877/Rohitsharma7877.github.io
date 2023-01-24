@@ -20,7 +20,7 @@ a {
   width: 100%;
   font-size: 50px;
   font-weight: 800;
-  color:  black;
+  color:  rgb(128, 155, 6);
   /* border: 2px solid black; */
   max-height: 60vh;
 }
@@ -29,7 +29,7 @@ a {
 }
 .nameCont p span {
   /* color: rgb(64, 112, 244); */
-  color:  rgb(177, 54, 6);
+  color:  rgb(15, 7, 117);
 }
 .photoCont {
   grid-area: photoCont;
@@ -51,7 +51,7 @@ a {
   margin: 0 10px;
   /* color: rgb(10, 102, 194); */
   cursor: pointer;
-  color: rgb(177, 54, 6);
+  color: rgb(15, 7, 117);
 }
 .linkedInIcon:hover {
   color: rgb(17, 121, 224) !important;
@@ -60,7 +60,7 @@ a {
   font-size: 40px;
   margin: 0 10px;
   cursor: pointer;
-  color: rgb(177, 54, 6);
+  color: rgb(15, 7, 117);
 }
 .gitIcon:hover {
   color: rgb(17, 121, 224) !important;

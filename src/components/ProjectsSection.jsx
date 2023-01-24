@@ -82,10 +82,7 @@ const projects = [
     
     stacks: [
       
-      // <SiReact className={styles.stackIcon} />,
-      // <SiRedux className={styles.stackIcon} />,
-      // <SiBootstrap className={styles.stackIcon} />,
-      // <SiChakraui className={styles.stackIcon} />,
+    
       <SiHtml5 className={styles.stackIcon} />,
       <SiJavascript className={styles.stackIcon} />,
       // <SiCss3 className={styles.stackIcon} />,

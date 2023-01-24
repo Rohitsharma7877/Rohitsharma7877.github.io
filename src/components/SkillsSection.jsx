@@ -1,4 +1,4 @@
-import { makeStyles } from "@material-ui/styles"
+// import { makeStyles } from "@material-ui/styles"
 import { SkillCard } from "./SkillCard"
 import styles from "./Styles/SkillsSection.module.css"
 import { GrReactjs } from "react-icons/gr"
@@ -13,9 +13,9 @@ import { SiNpm } from "react-icons/si"
 import { SiPostman } from "react-icons/si"
 import { SiExpress } from "react-icons/si"
 import { FaGitAlt } from "react-icons/fa"
-import {VscJson} from "vscode-icons-js"
+// import {VscJson} from "vscode-icons-js"
 import Fade from "react-reveal/Fade"
-import GitHubCalendar from "react-github-calendar"
+// import GitHubCalendar from "react-github-calendar"
 
 export function SkillsSection() {
   return (

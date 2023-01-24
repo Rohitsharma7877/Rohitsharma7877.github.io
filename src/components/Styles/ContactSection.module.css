@@ -1,8 +1,8 @@
 .rootCont {
   text-align: center;
   /* height: 45vh; */
-  background-color: rgb(177, 54, 6);
-  color: white;
+  background-color: rgb(15, 7, 117);
+  color: rgb(136, 129, 129);
   /* color: rgb(17, 121, 224); */
   display: flex;
   flex-direction: column;
@@ -98,7 +98,7 @@ textarea {
 [type="submit"] {
   font-family: "Montserrat", Arial, Helvetica, sans-serif;
   width: 100%;
-  background: rgb(103,50,29);
+  background: rgb(15, 7, 117);
   border-radius: 5px;
   border: 0;
   cursor: pointer;
