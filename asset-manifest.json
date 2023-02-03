@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.65951133.css",
-    "main.js": "/static/js/main.7286edf3.js",
+    "main.css": "/static/css/main.fd02d114.css",
+    "main.js": "/static/js/main.94391c7e.js",
     "static/js/787.f9a92489.chunk.js": "/static/js/787.f9a92489.chunk.js",
+    "static/media/ROHIT_KUMAR_Resume.pdf": "/static/media/ROHIT_KUMAR_Resume.ba19702c21c7d7f7324e.pdf",
     "static/media/rohit.jpeg": "/static/media/rohit.9d4bdd35e015281e28a2.jpeg",
     "index.html": "/index.html",
-    "main.65951133.css.map": "/static/css/main.65951133.css.map",
-    "main.7286edf3.js.map": "/static/js/main.7286edf3.js.map",
+    "main.fd02d114.css.map": "/static/css/main.fd02d114.css.map",
+    "main.94391c7e.js.map": "/static/js/main.94391c7e.js.map",
     "787.f9a92489.chunk.js.map": "/static/js/787.f9a92489.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.65951133.css",
-    "static/js/main.7286edf3.js"
+    "static/css/main.fd02d114.css",
+    "static/js/main.94391c7e.js"
   ]
 }
