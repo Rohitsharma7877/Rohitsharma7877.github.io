@@ -40,7 +40,7 @@ const projects = [
       
     link: "https://front-end-eight-rosy.vercel.app/",
       
-    git: "https://github.com/MohanM501/hip-animal-6452",
+    git: "https://github.com/Rohitsharma7877/EasyRent_Clone?organization=Rohitsharma7877&organization=Rohitsharma7877",
     about:`Rento Monjo is an online website platform to buy products such home appliances products for rent to the specific period of time.`,
     stacks: [
       // <SiReact className={styles.stackIcon} />,
@@ -58,7 +58,7 @@ const projects = [
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnFsxVNuyzpdYKP-iGgEeGBE5AnL7j7bFBuw&usqp=CAU",
     link:"https://bizarre-fog-8734-nu.vercel.app/",
       
-    git:"https://github.com/kartikkunwar/bizarre-fog-8734",
+    git:"https://github.com/Rohitsharma7877/OneStop.com_Clone?organization=Rohitsharma7877&organization=Rohitsharma7877",
     about:`  LYST Website clone. It is a platform for online shopping of variety of Clothing. User can easily search for the desired products using dynamic search bar. User can add multiple products to the cart and can buy with discounts also. Authentication is also required for purchase. `,
     
     stacks: [
@@ -75,9 +75,9 @@ const projects = [
   {
     name: "MailChimp Project",
     img: "https://user-images.githubusercontent.com/101381281/204876988-7f3ce8d3-ac0a-469a-ac4b-c30838f461aa.png",
-    link:"https://storied-conkies-af82f4.netlify.app/",
+    link:"celadon-brigadeiros-e7bbff.netlify.app",
       
-    git:"https://github.com/sanket-potdar563/JS-201-Project",
+    git:"https://github.com/Rohitsharma7877/Mailchimp.com_Project",
     about:`This project is a replica of Mailchimp.com website. It features some of the webpages from the original website.`,
     
     stacks: [

@@ -6,6 +6,10 @@ import { AiOutlineGithub } from "react-icons/ai"
 import { AiFillLinkedin } from "react-icons/ai"
 import { RiDownloadLine } from "react-icons/ri"
 import Fade from "react-reveal/Fade"
+import cv from '.././components/photo/ROHIT_KUMAR_Resume.pdf'
+
+
+
 
 const useStyles = makeStyles({
   contactBtn: {
@@ -42,6 +46,23 @@ const useStyles = makeStyles({
 })
 export function HeroSection() {
   const classes = useStyles()
+
+  const onButtonClick = async () => {
+
+
+    try{
+      // console.log(cv)
+      const a = document.createElement('a');
+      
+      a.href = "https://drive.google.com/file/d/1VehaYQzwZTiIZLmJ6gHuAjBriF3H8GFT/view?usp=sharing";
+      // a.download = 'ROHIT_KUMAR_Resume.pdf';
+      a.target="_blank"
+      a.click();
+    }catch(err){
+        console.log(err)
+    }
+  }
+
   return (
     <div className={styles.rootCont} id="hero">
       <Fade>
@@ -53,7 +74,8 @@ export function HeroSection() {
           <p> <ReactTyped 
           strings={[
             'Full Stack',
-            'Web Developer'
+            'Web Developer ',
+            'MERN Stack'
             
             ]}
             typeSpeed={40}
@@ -66,10 +88,10 @@ export function HeroSection() {
           //  https://drive.google.com/file/d/1UZZSDi78iPkruFMLcR3HFLCsN_mJU0O9/view?usp=sharing
             // target="_blank"
             download
-            href={"ROHIT_KUMAR_Resume.pdf"}
+            href={cv}
             // rel="noopener noreferrer"
           >
-            <Button variant="contained"
+            <Button onClick={onButtonClick } variant="contained"
              className={classes.contactBtn}>
               <RiDownloadLine
                 style={{

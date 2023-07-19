@@ -12,22 +12,39 @@ import {
 } from "@chakra-ui/react";
 import { HamburgerIcon, CloseIcon } from "@chakra-ui/icons";
 import styles from "./Styles/Navbar.module.css";
+import cv from ".././components/photo/ROHIT_KUMAR_Resume.pdf"
 
 export default function Simple() {
   const { isOpen, onOpen, onClose } = useDisclosure();
-  const onButtonClick = () => {
-    
-    fetch('ROHIT_KUMAR_Resume.pdf').then(response => {
-        response.blob().then(blob => {
+
+  // console.log("cv",cv)
+  const onButtonClick = async () => {
+
+
+    try{
+      // console.log(cv)
+      const a = document.createElement('a');
+      
+      a.href = "https://drive.google.com/file/d/1VehaYQzwZTiIZLmJ6gHuAjBriF3H8GFT/view?usp=sharing";
+      // a.download = 'ROHIT_KUMAR_Resume.pdf';
+      a.target="_blank"
+      a.click();
+    }catch(err){
+        console.log(err)
+    }
+ 
+
+    // fetch('ROHIT_KUMAR_Resume.pdf').then(response => {
+    //     response.blob().then(blob => {
         
-            const fileURL = window.URL.createObjectURL(blob);
-            // Setting various property values
-            let alink = document.createElement('a');
-            alink.href = fileURL;
-            alink.download = 'ROHIT_KUMAR_Resume.pdf';
-            alink.click();
-        })
-    })
+    //         const fileURL = window.URL.createObjectURL(blob);
+    //         // Setting various property values
+    //         let alink = document.createElement('a');
+    //         alink.href = fileURL;
+    //         alink.download = 'ROHIT_KUMAR_Resume.pdf';
+    //         alink.click();
+    //     })
+    // })
 }
 
 const Reload = () => {
@@ -126,7 +143,7 @@ const Reload = () => {
               >
                 <div className={styles.nav}>Contact</div>
               </Link>
-              <Link
+              {/* <Link
                 to="resume"
                 smooth={true}
                 duration={1000}
@@ -136,7 +153,13 @@ const Reload = () => {
                 onClick={onButtonClick }
               >
                 <div className={styles.nav}>Resume</div>
-              </Link>
+
+
+              </Link> */}
+              <a download='ROHIT_KUMAR_Resume.pdf' href={cv}  onClick={onButtonClick } > <div className={styles.nav}>Resume</div></a>
+
+
+
             </HStack>
           </HStack>
         </Flex>
@@ -194,8 +217,8 @@ const Reload = () => {
               >
                 <div className={styles.nav}>Contact</div>
               </Link>
-              <Link
-                to="resume"
+              {/* <Link
+                href="resume"
                 smooth={true}
                 duration={1000}
                 activeClass={styles.active}
@@ -204,7 +227,9 @@ const Reload = () => {
                 onClick={onButtonClick }
               >
                 <div className={styles.nav}>Resume</div>
-              </Link>
+              </Link> */}
+
+              <a download='ROHIT_KUMAR_Resume.pdf' href={cv}  onClick={onButtonClick } > <div className={styles.nav}>Resume</div></a>
             </Stack>
           </Box>
         ) : null}
