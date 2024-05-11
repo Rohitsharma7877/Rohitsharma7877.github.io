@@ -13,43 +13,23 @@ import { SiExpress } from "react-icons/si"
 import { SiMongodb } from "react-icons/si"
 import Fade from "react-reveal/Fade"
 const projects = [
+  
   {
-    name: "Gusto Project",
-    img: "https://www.garyfox.co/wp-content/uploads/2019/04/gusto-financial-software.jpg",
-    link: "https://gusto-rohitsharma7877.vercel.app/",
-
-    git: "https://github.com/Rohitsharma7877/Gusto-Clone.com",
-    about:`Gusto is an easy-to-use, all-in-one human resources (HR) platform that helps small businesses handle payroll, employee benefits, hiring, onboarding, time and attendance, and compliance.`,
-    stacks: [
-     // <SiReact className={styles.stackIcon} />,
-      // <SiNodedotjs className={styles.stackIcon} />,
-      // <SiExpress className={styles.stackIcon} />,
-      // <SiMongodb className={styles.stackIcon} />,
-      <SiReact className={styles.stackIcon} />,
-      <SiRedux className={styles.stackIcon} />,
-      <SiBootstrap className={styles.stackIcon} />,
-      <SiChakraui className={styles.stackIcon} />,
-      // <SiHtml5 className={styles.stackIcon} />,
-      // <SiJavascript className={styles.stackIcon} />,
-      <SiCss3 className={styles.stackIcon} />,
-    ],
-  },
-  {
-    name: "EasyRent Project",
-    img: "https://user-images.githubusercontent.com/105919527/200121519-e7b743f4-ec14-420c-a27f-83baaed41814.png",
+    name: "TheBrandBee",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFV2tUMf_snS0T0eeYNtHmYB-GCES_zG21Pw&s",
       
-    link: "https://front-end-eight-rosy.vercel.app/",
+    link: "https://brandbee.vercel.app/",
       
-    git: "https://github.com/Rohitsharma7877/EasyRent_Clone?organization=Rohitsharma7877&organization=Rohitsharma7877",
-    about:`Rento Monjo is an online website platform to buy products such home appliances products for rent to the specific period of time.`,
+    git: "https://github.com/Rohitsharma7877/BRANDBEE",
+    about:`The Brand Bee is a full-service strategic brand consulting, digital marketing and web solutions agency, providing customised brand building solutions for a diverse spectrum of industries worldwide.`,
     stacks: [
       // <SiReact className={styles.stackIcon} />,
       <SiReact className={styles.stackIcon} />,
-      <SiRedux className={styles.stackIcon} />,
-      <SiBootstrap className={styles.stackIcon} />,
+      // <SiRedux className={styles.stackIcon} />,
+      // <SiBootstrap className={styles.stackIcon} />,
       <SiChakraui className={styles.stackIcon} />,
-      // <SiHtml5 className={styles.stackIcon} />,
-      // <SiJavascript className={styles.stackIcon} />,
+      <SiHtml5 className={styles.stackIcon} />,
+      <SiJavascript className={styles.stackIcon} />,
       <SiCss3 className={styles.stackIcon} />
     ],
   },
@@ -89,6 +69,27 @@ const projects = [
       <SiStyledcomponents className={styles.stackIcon} />
     ],
   },
+  {
+    name: "Gusto Project",
+    img: "https://www.garyfox.co/wp-content/uploads/2019/04/gusto-financial-software.jpg",
+    link: "https://gusto-rohitsharma7877.vercel.app/",
+
+    git: "https://github.com/Rohitsharma7877/Gusto-Clone.com",
+    about:`Gusto is an easy-to-use, all-in-one human resources (HR) platform that helps small businesses handle payroll, employee benefits, hiring, onboarding, time and attendance, and compliance.`,
+    stacks: [
+     // <SiReact className={styles.stackIcon} />,
+      // <SiNodedotjs className={styles.stackIcon} />,
+      // <SiExpress className={styles.stackIcon} />,
+      // <SiMongodb className={styles.stackIcon} />,
+      <SiReact className={styles.stackIcon} />,
+      <SiRedux className={styles.stackIcon} />,
+      <SiBootstrap className={styles.stackIcon} />,
+      <SiChakraui className={styles.stackIcon} />,
+      // <SiHtml5 className={styles.stackIcon} />,
+      // <SiJavascript className={styles.stackIcon} />,
+      <SiCss3 className={styles.stackIcon} />,
+    ],
+  }
   
   
  

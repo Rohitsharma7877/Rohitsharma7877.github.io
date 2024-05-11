@@ -25,7 +25,7 @@ export default function Simple() {
       // console.log(cv)
       const a = document.createElement('a');
       
-      a.href = "https://drive.google.com/file/d/1VehaYQzwZTiIZLmJ6gHuAjBriF3H8GFT/view?usp=sharing";
+      a.href = "https://drive.google.com/file/d/1LWNbkksHQ1elp9WDPvBf2s1st8p6WB0B/view?usp=drive_link";
       // a.download = 'ROHIT_KUMAR_Resume.pdf';
       a.target="_blank"
       a.click();
