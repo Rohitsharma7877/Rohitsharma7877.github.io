@@ -54,7 +54,7 @@ export function HeroSection() {
       // console.log(cv)
       const a = document.createElement('a');
       
-      a.href = "https://drive.google.com/file/d/1VvLbWu-0U3nWozsjT8BfUpzoidO7Zpmw/view?usp=drive_link";
+      a.href = "https://drive.google.com/file/d/1Y7MwtWzQGWtqGDT_dNpKnT4IJMQolI63/view?usp=sharing";
       // a.download = 'ROHIT_KUMAR_Resume.pdf';
       a.target="_blank"
       a.click();

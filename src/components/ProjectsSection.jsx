@@ -34,11 +34,11 @@ const projects = [
     ],
   },
   {
-    name: "OneStop Project",
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnFsxVNuyzpdYKP-iGgEeGBE5AnL7j7bFBuw&usqp=CAU",
-    link:"https://bizarre-fog-8734-nu.vercel.app/",
+    name: "InstaClone",
+    img: "https://mir-s3-cdn-cf.behance.net/projects/404/d5d900124186413.Y3JvcCwxNTM0LDEyMDAsMzQsMA.png",
+    link:"https://instaclone-ltm8.onrender.com/login",
       
-    git:"https://github.com/Rohitsharma7877/OneStop.com_Clone?organization=Rohitsharma7877&organization=Rohitsharma7877",
+    git:"https://github.com/Rohitsharma7877/InstaClone",
     about:`  LYST Website clone. It is a platform for online shopping of variety of Clothing. User can easily search for the desired products using dynamic search bar. User can add multiple products to the cart and can buy with discounts also. Authentication is also required for purchase. `,
     
     stacks: [
@@ -71,7 +71,7 @@ const projects = [
   },
   {
     name: "Gusto Project",
-    img: "https://www.garyfox.co/wp-content/uploads/2019/04/gusto-financial-software.jpg",
+    img: "https://pageflows.com/media/videos/Onboarding_Gusto_Desktop_Web.mp4-screenshot-.jpg",
     link: "https://gusto-rohitsharma7877.vercel.app/",
 
     git: "https://github.com/Rohitsharma7877/Gusto-Clone.com",
